@@ -167,9 +167,20 @@ body {
     margin-bottom: 15px;
 }
 
+.skills__columns {
+    display: flex;
+    justify-content: center;
+}
+
+.skills__column {
+    flex: 1 1 auto;
+    max-width: 50%;
+}
+
 .skills__text {
     color: var(--secondary-text-color);
-    text-align: justify;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
 /*Experience and additional info styles*/
